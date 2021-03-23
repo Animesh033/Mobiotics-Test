@@ -1,0 +1,103 @@
+{
+    "products": [{
+            "id": 1,
+            "brand_name": "Brand 1",
+            "product_name": "Product 1",
+            "quantity": 1,
+            "price": 20,
+            "mrp": 1,
+            "image_url": "prod.jpeg",
+            "offer_text": "offerText"
+        },
+        {
+            "id": 2,
+            "brand_name": "Brand 2",
+            "product_name": "Product 2",
+            "quantity": 2,
+            "price": 20,
+            "mrp": 2,
+            "image_url": "prod.jpeg",
+            "offer_text": "offerText"
+        },
+        {
+            "id": 3,
+            "brand_name": "Brand 3",
+            "product_name": "Product 3",
+            "quantity": 12,
+            "price": 20,
+            "mrp": 200,
+            "image_url": "prod.jpeg",
+            "offer_text": "offerText"
+        },
+        {
+            "id": 4,
+            "brand_name": "Brand 4",
+            "product_name": "Product 4",
+            "quantity": 12,
+            "price": 20,
+            "mrp": 200,
+            "image_url": "prod.jpeg",
+            "offer_text": ""
+        },
+        {
+            "id": 5,
+            "brand_name": "Brand 5",
+            "product_name": "Product 5",
+            "quantity": 12,
+            "price": 20,
+            "mrp": 200,
+            "image_url": "prod.jpeg",
+            "offer_text": ""
+        },
+        {
+            "id": 6,
+            "brand_name": "Brand 6",
+            "product_name": "Product 6",
+            "quantity": 12,
+            "price": 20,
+            "mrp": 200,
+            "image_url": "prod.jpeg",
+            "offer_text": ""
+        },
+        {
+            "id": 7,
+            "brand_name": "Brand 7",
+            "product_name": "Product 7",
+            "quantity": 12,
+            "price": 20,
+            "mrp": 200,
+            "image_url": "prod.jpeg",
+            "offer_text": ""
+        },
+        {
+            "id": 8,
+            "brand_name": "Brand 8",
+            "product_name": "Product 8",
+            "quantity": 12,
+            "price": 20,
+            "mrp": 200,
+            "image_url": "prod.jpeg",
+            "offer_text": ""
+        },
+        {
+            "id": 9,
+            "brand_name": "Brand 9",
+            "product_name": "Product 9",
+            "quantity": 12,
+            "price": 20,
+            "mrp": 200,
+            "image_url": "prod.jpeg",
+            "offer_text": ""
+        },
+        {
+            "id": 10,
+            "brand_name": "Brand 10",
+            "product_name": "Product 10",
+            "quantity": 12,
+            "price": 20,
+            "mrp": 200,
+            "image_url": "prod.jpeg",
+            "offer_text": ""
+        }
+    ]
+}
