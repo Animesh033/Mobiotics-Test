@@ -1,28 +1,32 @@
 <template>
-	<div class="product-item">
-		<div class="product-photo">
-			<img :src="imgUrl" alt="Image" />
-			<p class="product-offer-text">{{ offerText }}</p>
-		</div>
-		<div class="main">
-			<div class="product-info">
-				<h3>{{ brandName }}</h3>
-				<p>{{ productName }}</p>
-				<p>{{ quantity }}</p>
-				<p>MRP {{ mrp }}</p>
-				<p>
-					<b>Rs. {{ totalPrice }}</b>
-				</p>
+	<section>
+		<base-card>
+			<div class="product-item">
+				<div class="product-photo">
+					<img :src="imgUrl" alt="Image" />
+					<p class="product-offer-text">{{ offerText }}</p>
+				</div>
+				<div class="main">
+					<div class="product-info">
+						<h3>{{ brandName }}</h3>
+						<p>{{ productName }}</p>
+						<p>{{ quantity }}</p>
+						<p>MRP {{ mrp }}</p>
+						<p>
+							<b>Rs. {{ totalPrice }}</b>
+						</p>
+					</div>
+					<div class="actions">
+						<base-button @click="addToCart()">Add cart</base-button>
+						<base-button @click="incItem()">+</base-button>
+						<span>{{ numberOfProduct }}</span>
+						<base-button @click="decItem()">-</base-button>
+					</div>
+				</div>
 			</div>
-			<div class="actions">
-				<base-button @click="addToCart()">Add cart</base-button>
-				<base-button @click="incItem()">+</base-button>
-				<span>{{ numberOfProduct }}</span>
-				<base-button @click="decItem()">-</base-button>
-			</div>
-		</div>
-	</div>
-	<hr />
+		</base-card>
+		<hr />
+	</section>
 </template>
 
 <script>

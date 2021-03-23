@@ -1,7 +1,11 @@
 <template>
-	<router-view></router-view>
-	<TheCheckout />
-	<TheFooter />
+	<section>
+		<base-card>
+			<router-view></router-view>
+			<TheCheckout />
+			<TheFooter />
+		</base-card>
+	</section>
 </template>
 
 <script>
