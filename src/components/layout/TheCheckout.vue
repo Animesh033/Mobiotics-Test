@@ -10,7 +10,9 @@
 		<nav>
 			<h2>Qty: {{ totalProdQty }}</h2>
 			<h2>Total: {{ totalProductAmount }}</h2>
-			<base-button @click="checkOut">Checkout</base-button>
+			<base-button @click="checkOut" v-if="totalProductAmount > 0"
+				>Checkout</base-button
+			>
 		</nav>
 	</header>
 </template>
